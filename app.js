@@ -1,15 +1,11 @@
-let mouseCursor = document.querySelector('.cursor');
-let navLinks = document.querySelectorAll('nav-links li');
-
-window.addEventListener('mousemove', cursor);
-
-function cursor(e) {
-  mouseCursor.style.top = e.pageY + 'px';
-  mouseCursor.style.left = e.pageX + 'px';
-}
-
-navLinks.forEach(link => {
-  link.addEventListener('mouseover', () => {
-    mouseCursor.classList.add('link-grow');
-  });
-});
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+console.log(6);
+console.log(7);
+console.log(8);
+console.log(9);
+console.log(10);
